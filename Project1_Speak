@@ -1,0 +1,11 @@
+import os
+
+if __name__== '__main__':
+     print("welcome")
+     while (True):
+         x = input("What you want me to speak?")
+         if x=="q":
+             break
+         x= input("What you want me to speak?")
+         command= f"say {x}"
+         os.system(command)
